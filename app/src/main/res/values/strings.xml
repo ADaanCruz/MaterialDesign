@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Material Design</string>
+
+    <!-- MainActivity -->
+    <string name="textview">TextView</string>
+    <string name="textinputlayout_edittext">TextInputLayout / EditText</string>
+    <string name="button">Button</string>
+    <string name="chip">Chip</string>
+
+    <!-- _Default -->
+    <string name="_default">Default</string>
+
+    <!-- TextView -->
+    <string name="body1">Body1</string>
+    <string name="body2">Body2</string>
+    <string name="headline1">Headline1</string>
+    <string name="headline2">Headline2</string>
+    <string name="headline3">Headline3</string>
+    <string name="headline4">Headline4</string>
+    <string name="headline5">Headline5</string>
+    <string name="headline6">Headline6</string>
+    <string name="overline">Overline</string>
+    <string name="subtitle1">Subtitle1</string>
+    <string name="subtitle2">Subtitle2</string>
+    <string name="caption">Caption</string>
+
+    <!-- TextInputLayout -->
+    <string name="filledbox">FilledBox</string>
+    <string name="filledbox_dense">FilledBox Dense</string>
+    <string name="outlinebox">OutlineBox</string>
+    <string name="outlinebox_dense">OutlineBox Dense</string>
+
+    <!-- Button -->
+    <string name="textbutton">TextButton</string>
+    <string name="outlinebutton">OutlineButton</string>
+
+    <!-- Chip -->
+    <string name="filter">Filter</string>
+    <string name="choice">Choice</string>
+    <string name="action">Action</string>
+    <string name="bottomappbar">BottomAppBar</string>
+    <string name="backdropmenu">BackdropMenu</string>
+
+</resources>
