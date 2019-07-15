@@ -1,0 +1,29 @@
+Inicialmente el proyecto debe crearse con el soporte de AndroidX o migrar de AppCompat a AndroidX.
+
+Para hacer uso de Material Desgin Components (MDC) se debe agregar la siguiente api en el archivo 
+build.gradle dentro de app:
+
+dependecies {
+  api 'com.google.android.material:material:1.1.0-alpha08'
+}
+
+Una vez agregada, le daremos en sync en la parte superior derecha del nuestra ventana de build.gradle. 
+
+Al igual que, para pre-visualizar los componentes en los .XML, es necesario modificar el estilo predeterminado en
+app/src/main/res/values a lo siguiente:
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
+
+Finalmente podemos hacer uso de los ejemplos básicos que nos ofrece la documentación de Material Design
+en el link https://material.io/design/components/
+
+Documentación de MaterialDesign.
+https://material.io/design/
