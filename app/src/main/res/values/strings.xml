@@ -40,5 +40,6 @@
     <string name="action">Action</string>
     <string name="bottomappbar">BottomAppBar</string>
     <string name="backdropmenu">BackdropMenu</string>
+    <string name="item">Item</string>
 
 </resources>

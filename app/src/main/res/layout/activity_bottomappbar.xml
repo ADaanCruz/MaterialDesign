@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".BottomappbarActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_done_black_24dp"
+                app:layout_anchor="@id/bottomAppBar1"/>
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:fabAlignmentMode="end"
+                app:fabCradleMargin="4dp"
+                app:fabCradleRoundedCornerRadius="16dp"
+                app:fabCradleVerticalOffset="4dp"
+                app:menu="@menu/menu_bottom"
+                app:backgroundTint="@color/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+                app:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_done_black_24dp"
+                app:layout_anchor="@id/bottomAppBar2"/>
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:fabAlignmentMode="center"
+                app:fabCradleMargin="4dp"
+                app:fabCradleRoundedCornerRadius="16dp"
+                app:fabCradleVerticalOffset="4dp"
+                app:menu="@menu/menu_bottom"
+                app:backgroundTint="@color/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+                app:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
